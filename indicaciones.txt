@@ -1,0 +1,3 @@
+Usuario : admin
+Contraseña: 12345
+Crear una base de datos llamada biblioteca en MySQL

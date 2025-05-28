@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca Casa Abierta</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header>Biblioteca Casa Abierta</header>
+
+    <div id="panel">
+        <button class="btn-blue" onclick="listarLibros()"><i class="fas fa-book"></i> Listar Libros</button>
+        <button class="btn-blue" onclick="buscarLibroId()"><i class="fas fa-search"></i> Buscar Libro</button>
+        <button class="btn-blue" onclick="listarAutores()"><i class="fas fa-user"></i> Listar Autores</button>
+        <button class="btn-blue" onclick="buscarAutorId()"><i class="fas fa-search"></i> Buscar Autor</button>
+        <hr>
+        <button class="btn-green" onclick="abrirActualizarLibro()"><i class="fas fa-edit"></i> Actualizar Libro</button>
+        <button class="btn-gray" onclick="abrirEliminarLibro()"><i class="fas fa-trash"></i> Eliminar Libro</button>
+        <button class="btn-orange" onclick="abrirInsertarLibro()"><i class="fas fa-plus"></i> Insertar Libro</button>
+        <br><br>
+        <button class="btn-green" onclick="abrirActualizarAutor()"><i class="fas fa-edit"></i> Actualizar Autor</button>
+        <button class="btn-gray" onclick="abrirEliminarAutor()"><i class="fas fa-trash"></i> Eliminar Autor</button>
+        <button class="btn-orange" onclick="abrirInsertarAutor()"><i class="fas fa-plus"></i> Insertar Autor</button>
+    </div>
+
+    <div id="tablaResultados"></div>
+
+   
+    <script src="js/index.js"></script>
+</body>
+</html>
+

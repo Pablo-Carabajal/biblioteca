@@ -1,0 +1,21 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f0f2f5; }
+header { background-color: #1e90ff; padding: 20px; color: white; text-align: center; font-size: 2em; }
+#panel { padding: 20px; background: white; margin: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btn-blue { background-color: #007bff; }
+.btn-green { background-color: #28a745; }
+.btn-orange { background-color: #fd7e14; }
+.btn-gray { background-color: #6c757d; }
+button:hover { opacity: 0.9; }
+table { width: 100%; border-collapse: collapse; background: white; margin-top: 20px; }
+th, td { padding: 12px; border: 1px solid #ddd; text-align: center; }
+th { background-color: #e9ecef; }
+#tablaResultados { margin: 20px; }
